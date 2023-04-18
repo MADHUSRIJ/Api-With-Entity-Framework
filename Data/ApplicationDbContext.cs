@@ -11,5 +11,6 @@ namespace ApiWithEntityFramework.Data
         }
 
         public DbSet<StudentModel> StudentDetails { get; set; }
+        public  DbSet<TeacherModel> TeacherDetails { get; set; }
     }
 }
